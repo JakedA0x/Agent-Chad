@@ -1,0 +1,14 @@
+name = "free-ai-agent-v1"
+main = "src/index.js"
+compatibility_date = "2026-10-08"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ai-agent-db"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+
+[vars]
+APP_NAME = "Free AI Agent"
+
+# Set the AI API key as a secret:
+# npx wrangler secret put GEMINI_API_KEY
